@@ -92,7 +92,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun getTareas():MutableList<Tarea>{
-        var listaCategorias= mutableListOf(Tarea("Sacar fotos en CFE",Categoria.Trabajo),Tarea("Actualizar sitio de innovatecNM",Categoria.Escuela))
+        var listaCategorias= mutableListOf(
+            Tarea("Sacar fotos en CFE",Categoria.Trabajo),
+            Tarea("Actualizar sitio de innovatecNM",Categoria.Escuela),
+            Tarea("Actualizar sitio de innovatecNM",Categoria.Escuela))
         return listaCategorias
     }
 
